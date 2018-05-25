@@ -1,0 +1,26 @@
+{
+  "name": "rtf2text",
+  "version": "1.0.0",
+  "description": "Convert rtf to text by discarding rtf information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rtf2txt",
+    "rtf",
+    "to",
+    "text",
+    "rtf",
+    "discard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfocus/rtf2txt.git"
+  },
+  "author": "Håkon Nessjøen <haakon@bitfocus.io>",
+  "license": "ISC",
+  "dependencies": {
+    "rtf-parser": "^1.1.0"
+  }
+}
