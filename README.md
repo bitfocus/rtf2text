@@ -1,16 +1,16 @@
-# rtf2txt
+# rtf2text
 
 This is a simplified RTF to text tool that just discards all RTF formatting from the document, and returns the document in plaintext.
 
 ```js
-const rtf2txt = require('rtf2txt')
+const rtf2text = require('rtf2text')
 const fs = require('fs')
 
-parseRTF.string('{\\rtf1\\ansi\\b hi there\\b0}', (err, txt) => {
+parseRTF.string('{\\rtf1\\ansi\\b hi there\\b0}', (err, text) => {
   …
 })
 
-parseRTF.stream(fs.createReadStream('example.rtf'), (err, txt) => {
+parseRTF.stream(fs.createReadStream('example.rtf'), (err, text) => {
   …
 })
 ```
